@@ -8,7 +8,7 @@ This repository contains the source code for my personal portfolio website. This
 
 ## Live Demo
 
-A live version of this portfolio can be viewed here: `https://github.com/sripriyareddy20/portfolio`
+A live version of this portfolio can be viewed here: `https://sripriyareddy20.github.io/portfolio/`
 
 *(Note: Replace the placeholder with the actual URL once the site is deployed on a service like GitHub Pages or Netlify.)*
 
