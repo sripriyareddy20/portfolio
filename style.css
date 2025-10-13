@@ -178,6 +178,8 @@ body {
     box-shadow: 0 24px 44px rgba(31, 41, 55, .18);
 }
 
+
+
 /* ===== Sections ===== */
 .section {
     max-width: 1100px;
@@ -236,15 +238,31 @@ body {
     flex-wrap: wrap;
 }
 
+/* Certifications chips */
+.chips {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* <-- center align under heading */
+}
+
 .chip {
-    background: var(--chip-bg);
-    color: var(--chip-text);
-    padding: 8px 12px;
+    background: #fff;
+    /* white background */
+    color: #000;
+    /* black text */
+    padding: 10px 16px;
     border-radius: 999px;
-    font-weight: 800;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid rgba(100, 116, 139, .2);
     box-shadow: var(--shadow);
 }
+
 
 /* Experience */
 .xp {
@@ -373,4 +391,41 @@ body {
 
 .contact-list a:hover {
     text-decoration: underline;
+}
+
+/* Resume button (no icon) */
+.pill--resume {
+    background: linear-gradient(90deg, var(--blue), var(--pink));
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 12px 22px;
+}
+
+.pill--resume:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Certifications */
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+.cert-card {
+    background: #fff;
+    border: 1px solid rgba(100, 116, 139, .15);
+    border-radius: 12px;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #111;
+    box-shadow: var(--shadow);
+}
+
+.cert-card:hover {
+    background: #f9fafb;
 }
