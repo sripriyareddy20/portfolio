@@ -1,4 +1,4 @@
-# Portfolio | Sripriya Reddy, Data Engineer
+# Portfolio | Sripriya Reddy | Data Engineer
 
 ## Introduction
 
