@@ -6,47 +6,95 @@ This repository contains the source code for my personal portfolio website. This
 
 ---
 
-## Live Demo
+## Professional Summary
 
-A live version of this portfolio can be viewed here: `https://sripriyareddy20.github.io/portfolio/`
+Data Engineer with 6+ years of experience building scalable, production-grade data platforms across financial and healthcare domains.
 
-*(Note: Replace the placeholder with the actual URL once the site is deployed on a service like GitHub Pages or Netlify.)*
+Expertise in designing end-to-end ETL/ELT pipelines, real-time and batch processing architectures, and modern cloud data platforms. Strong background in Apache Spark (batch + streaming), Snowflake optimization, Airflow orchestration, and DevOps-driven data deployments.
 
----
-
-## Key Features
-
--   **Comprehensive Skills Showcase:** A categorized overview of technical skills, including programming languages, big data technologies, and cloud platforms.
--   **Detailed Professional Experience:** A chronological presentation of my work history, outlining key responsibilities and significant, metric-driven achievements at companies like Charles Schwab and Tata Consultancy Services.
--   **Project Highlights:** A curated selection of impactful projects, detailing my contributions to areas like real-time fraud detection and supply chain optimization.
--   **Responsive Design:** The layout is fully responsive and optimized for a seamless experience on desktops, tablets, and mobile devices.
+Focused on building reliable, governed, and high-performance data systems that support analytics, BI, and machine learning workloads.
 
 ---
 
-## Technologies Used
+## Core Expertise
 
--   **HTML5:** For the semantic structure and content of the website.
--   **CSS3:** For all styling, layout management (Flexbox/Grid), and responsive design.
--   **Google Fonts:** For typography.
+• Distributed Data Processing (Spark / PySpark / Kafka)  
+• Batch & Real-Time Streaming Architectures  
+• Cloud Data Engineering (AWS, GCP, Azure)  
+• Data Warehousing (Snowflake, BigQuery, Synapse, Redshift)  
+• Workflow Orchestration (Airflow, dbt, Prefect)  
+• Data Modeling (Dimensional, Star/Snowflake Schema, Lakehouse)  
+• Data Quality & Governance (Great Expectations, Validation Controls)  
+• DevOps for Data (Jenkins, Terraform, Docker, CI/CD Automation)  
 
 ---
 
-## Local Development
+## Professional Experience
 
-To set up and view this project on your local machine, please follow these steps:
+### Data Engineer – Charles Schwab (USA)
 
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    ```
+- Designed large-scale ETL pipelines using AWS Glue, Lambda, and Spark to automate ingestion of transactional and market datasets.
+- Optimized Snowflake dimensional models improving query efficiency and governance consistency.
+- Orchestrated SLA-driven workflows using Apache Airflow with enhanced observability and monitoring.
+- Built AI-ready datasets supporting predictive risk and market analytics use cases.
+- Implemented CI/CD for ETL deployments using Jenkins and Terraform with infrastructure-as-code provisioning.
+- Improved Spark and Snowflake performance through clustering, partitioning, predicate pushdown, and workload tuning.
 
-2.  **Navigate to the Directory**
-    ```bash
-    cd your-repository-name
-    ```
+---
 
-3.  **Open in Browser**
-    Simply open the `index.html` file in your preferred web browser to view the portfolio. No special servers or dependencies are required.
+### Data Engineer – Tata Consultancy Services
+
+- Engineered distributed PySpark + Kafka pipelines processing 500M+ transactions daily.
+- Migrated legacy ETL workloads to Google Cloud, optimizing cost and reliability.
+- Implemented Airflow-based orchestration with automated alerting and error handling.
+- Integrated CI/CD pipelines with version control and automated rollback mechanisms.
+- Designed fault-tolerant real-time architectures with checkpointing and backpressure handling.
+
+---
+
+### Data Analyst – Capgemini
+
+- Built analytical data models using SQL Server and Azure Synapse.
+- Developed executive dashboards in Power BI serving 40+ stakeholders.
+- Automated reporting pipelines using Python and Airflow.
+- Migrated on-prem data systems to Azure Synapse improving performance and cost efficiency.
+
+---
+
+### Data Analyst Associate – Citius Tech
+
+- Processed HIPAA-compliant healthcare datasets across SQL, APIs, and Excel.
+- Built Tableau dashboards for clinical and operational reporting.
+- Implemented Python-based data quality validations reducing manual QA effort.
+
+---
+
+## Technical Stack
+
+**Languages:** Python, SQL, Scala  
+**Big Data:** Spark, PySpark, Kafka, Hadoop  
+**Cloud:** AWS, GCP, Azure  
+**Warehousing:** Snowflake, BigQuery, Synapse, Redshift  
+**Orchestration:** Airflow, dbt, Prefect  
+**DevOps:** Git, Jenkins, Terraform, Docker  
+**BI:** Power BI, Tableau  
+
+---
+
+## Certifications
+
+- AWS Cloud Practitioner  
+- AWS AI Practitioner  
+- Microsoft Fabric Data Engineer (DP-700)  
+- Databricks Fundamentals  
+- Generative AI Fundamentals  
+
+---
+
+## Education
+
+Master of Science – Information Systems & Technologies  
+University of North Texas 
 
 ---
 
@@ -55,5 +103,5 @@ To set up and view this project on your local machine, please follow these steps
 For any professional inquiries, please feel free to contact me.
 
 -   **Name:** Sripriya Reddy
--   **Location:** Dallas, TX
+-   **Location:** United States 
 -   **Email:** sripriyaareddy20@gmail.com
