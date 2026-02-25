@@ -1,312 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sripriya Reddy — Data Engineer</title>
-    <meta name="description"
-        content="Sripriya Reddy — Data Engineer specializing in ETL, AWS/GCP, streaming, and large-scale data ecosystems." />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sripriya Reddy — Data Engineer</title>
+  <meta name="description" content="Sripriya Reddy — Data Engineer specializing in Python/SQL, Spark, Airflow, and cloud data platforms (AWS, Azure, GCP, Snowflake)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!-- ===== TOP NAV ===== -->
+  <nav class="topnav" aria-label="Primary">
+    <a href="#home" class="topnav__link">Home</a>
+    <a href="#about" class="topnav__link">About</a>
+    <a href="#skills" class="topnav__link">Skills</a>
+    <a href="#experience" class="topnav__link">Experience</a>
+    <a href="#projects" class="topnav__link">Projects</a>
+    <a href="#education" class="topnav__link">Education</a>
+    <a href="#contact" class="topnav__link">Contact</a>
+  </nav>
 
-    <!-- ===== TOP NAV (visible labels) ===== -->
-    <nav class="topnav">
-        <a href="#home" class="topnav__link" aria-label="Home">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path d="M12 3 3 11h3v8h6v-5h2v5h6v-8h3L12 3z" />
-            </svg>
-            <span>Home</span>
-        </a>
-        <a href="#about" class="topnav__link" aria-label="About">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.24-8 5v2h16v-2c0-2.76-3.58-5-8-5Z" />
-            </svg>
-            <span>About</span>
-        </a>
-        <a href="#skills" class="topnav__link" aria-label="Skills">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path
-                    d="m8 17-5-5 5-5 1.41 1.41L6.83 12l2.58 2.59L8 17Zm8 0-1.41-1.41L17.17 12l-2.58-2.59L16 8l5 5-5 5Z" />
-            </svg>
-            <span>Skills</span>
-        </a>
-        <a href="#experience" class="topnav__link" aria-label="Experience">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path
-                    d="M10 4h4a2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h4V6a2 2 0 0 1 2-2Zm4 4V6h-4v2h4Z" />
-            </svg>
-            <span>Experience</span>
-        </a>
-        <a href="#projects" class="topnav__link" aria-label="Projects">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path
-                    d="M11 3 4 7v6l7 4 7-4V7l-7-4Zm0 2.18L16.53 8 11 10.82 5.47 8 11 5.18ZM6 9.76l5 2.86v4.62l-5-2.86V9.76Zm7 7.48v-4.62l5-2.86v4.62l-5 2.86Z" />
-            </svg>
-            <span>Projects</span>
-        </a>
-        <a href="#education" class="topnav__link" aria-label="Education">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path d="m12 3 10 5-10 5L2 8l10-5Zm6 8.18V14c0 2.76-2.69 5-6 5s-6-2.24-6-5v-2l6 3 6-3Z" />
-            </svg>
-            <span>Education</span>
-        </a>
-        <a href="#contact" class="topnav__link" aria-label="Contact">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path d="M4 4h16a2 2 0 0 1 2 2v12l-4-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" />
-            </svg>
-            <span>Contact</span>
-        </a>
-    </nav>
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <p class="hero__kicker">Dallas, TX • Open to relocation (US)</p>
+    <h1 class="hero__name">Sripriya Reddy</h1>
+    <p class="hero__role">Data Engineer</p>
+    <p class="hero__summary">
+      Data Engineer with <strong>6+ years</strong> building reliable data pipelines and analytics-ready datasets using
+      <strong>Python</strong>, <strong>SQL</strong>, and <strong>Spark</strong> across cloud and hybrid environments.
+      I focus on scalable ETL/ELT, orchestration, data quality, and performance—turning messy, fragmented data into
+      trusted, decision-ready insight.
+    </p>
 
-    <!-- ===== HERO ===== -->
-    <header class="hero" id="home">
-        <h1 class="hero__name"><span>Sripriya Reddy</span></h1>
-        <p class="hero__role">Data Engineer</p>
-        <p class="hero__summary">
-                5+ years shaping high-impact data ecosystems — building ETL/ELT frameworks, orchestrating large-scale integrations, and delivering analytics that drive measurable business outcomes. 
-                Deep expertise in SQL, Python, and modern cloud platforms (AWS, GCP), with a strong focus on data quality, reliability, and performance. 
-                I help teams move from messy, fragmented data to trusted, real-time insight.
-        </p>
+    <div class="hero__cta" role="group" aria-label="Quick actions">
+      <a class="btn" href="mailto:sripriyaareddy20@gmail.com">Email</a>
+      <a class="btn btn--secondary" href="tel:+19724138713">Call</a>
+      <a class="btn btn--secondary" href="https://www.linkedin.com/in/sripriya-reddy20/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn--secondary" href="https://github.com/sripriyareddy20" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
 
-        <!-- Phone pill only (email removed to keep it hidden) -->
-        <div class="hero__cta">
-            <a class="pill pill--tel" href="tel:+19724138713" aria-label="Call +1 972 413 8713">
-                <span class="pill__icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                        <path
-                            d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V21a1 1 0 0 1-1 1C10.4 22 2 13.6 2 3a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.57 3.6a1 1 0 0 1-.24 1L6.6 10.8Z" />
-                    </svg>
-                </span>
-                +1 (972) 413-8713
-            </a>
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <h2 class="section__title">About</h2>
+    <p class="section__subtitle">What I do and how I work</p>
+    <div class="card">
+      <p>
+        I design and operate data platforms that are easy to trust in production—clean schemas, measurable SLAs, and
+        predictable pipelines. I’ve worked across finance and healthcare domains, partnering with engineering,
+        analytics, and compliance stakeholders to deliver governed datasets, standardized KPIs, and fast reporting layers.
+      </p>
+      <p class="mt">
+        I care about the “boring” things that matter: lineage, validation, cost/performance tuning, and making sure
+        data is usable for downstream BI and ML.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <p class="section__subtitle">Tools I use to ship production data systems</p>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Languages</h3>
+        <p>Python, SQL, Scala, Bash/Shell, DAX, R</p>
+      </article>
+
+      <article class="card">
+        <h3>Big Data &amp; Streaming</h3>
+        <p>Apache Spark / PySpark, Spark Streaming, Kafka, Flink, Hive, Hadoop</p>
+      </article>
+
+      <article class="card">
+        <h3>Orchestration &amp; ELT</h3>
+        <p>Apache Airflow, dbt, Prefect, Luigi</p>
+      </article>
+
+      <article class="card">
+        <h3>Cloud &amp; Warehousing</h3>
+        <p>AWS (Glue, Lambda, EMR, S3), Azure (Data Factory, Synapse), GCP (BigQuery, Dataflow, Pub/Sub), Snowflake, Redshift, Databricks</p>
+      </article>
+
+      <article class="card">
+        <h3>Data Stores</h3>
+        <p>PostgreSQL, MySQL, MongoDB, Cassandra, DynamoDB</p>
+      </article>
+
+      <article class="card">
+        <h3>DevOps &amp; Reliability</h3>
+        <p>Git/GitHub, Jenkins, Terraform, Docker, Kubernetes, CI/CD automation, monitoring &amp; alerting</p>
+      </article>
+
+      <article class="card">
+        <h3>AI / ML</h3>
+        <p>OpenAI API, LangChain, Hugging Face, scikit-learn, TensorFlow, PyTorch, MLflow</p>
+      </article>
+
+      <article class="card">
+        <h3>Governance &amp; Security</h3>
+        <p>Data quality rules, auditing mindset, IAM, encryption, access control, GDPR, SOC 2</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section" id="certifications">
+    <h2 class="section__title">Certifications</h2>
+    <ul class="chips" aria-label="Certifications">
+      <li class="chip">AWS Cloud Practitioner</li>
+      <li class="chip">AWS AI Practitioner</li>
+      <li class="chip">Microsoft Fabric Data Engineer Associate (DP-700)</li>
+      <li class="chip">Databricks Fundamentals</li>
+      <li class="chip">Databricks Generative AI Fundamentals</li>
+    </ul>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <h2 class="section__title">Experience</h2>
+
+    <article class="xp">
+      <header class="xp__head">
+        <div class="xp__title">
+          <h3>Charles Schwab</h3>
+          <span class="role">Data Engineer</span>
         </div>
+        <div class="xp__meta"><span>Dec 2024 – Present</span><span>USA</span></div>
+      </header>
+      <ul class="xp__bullets">
+        <li>Designed ETL pipelines with AWS Glue, Lambda, and Spark to ingest transactional &amp; market datasets, reducing manual effort by ~80% and accelerating ML/analytics readiness.</li>
+        <li>Optimized Snowflake dimensional models (clustering, joins, warehouse sizing) to improve query efficiency by ~45% for portfolio analytics and risk reporting.</li>
+        <li>Orchestrated workflows in Apache Airflow with dependency management and SLA monitoring to improve reliability and reduce end-to-end runtime.</li>
+        <li>Implemented lineage and validation with dbt + Great Expectations to ensure traceability for 10M+ financial transactions and strengthen regulatory controls.</li>
+        <li>Improved deployments using Jenkins + Terraform (IaC) to reduce production release failures by ~60% and standardize environments across AWS.</li>
+      </ul>
+      <div class="tags" aria-label="Key technologies">
+        <span>Python</span><span>SQL</span><span>Spark</span><span>AWS Glue</span><span>Lambda</span><span>S3</span><span>Snowflake</span><span>Airflow</span><span>dbt</span><span>Great Expectations</span><span>Jenkins</span><span>Terraform</span>
+      </div>
+    </article>
 
-        <!-- Social icons -->
-        <div class="social">
-            <a class="social__btn" href="mailto:sripriyaareddy20@gmail.com" target="_blank" rel="noopener"
-                aria-label="Email">
-                <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor">
-                    <path
-                        d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z" />
-                </svg>
-            </a>
-            <a class="social__btn" href="https://www.linkedin.com/in/sripriya-reddy20/" target="_blank" rel="noopener"
-                aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor">
-                    <path
-                        d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.67H9.35V9h3.41v1.56h.05c.47-.89 1.62-1.83 3.33-1.83 3.57 0 4.23 2.35 4.23 5.4v6.32ZM5.34 7.44a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z" />
-                </svg>
-            </a>
-            <a class="social__btn" href="https://github.com/sripriyareddy20" target="_blank" rel="noopener"
-                aria-label="GitHub">
-                <svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor">
-                    <path
-                        d="M12 1.5A10.5 10.5 0 0 0 1.5 12c0 4.64 3 8.56 7.16 9.95.52.1.71-.23.71-.5v-1.98c-2.91.63-3.53-1.25-3.53-1.25-.47-1.2-1.16-1.52-1.16-1.52-.95-.64.07-.63.07-.63 1.05.07 1.6 1.08 1.6 1.08.94 1.6 2.47 1.14 3.07.87.1-.68.37-1.14.66-1.4-2.32-.26-4.76-1.16-4.76-5.16 0-1.14.41-2.06 1.08-2.79-.11-.27-.47-1.36.1-2.84 0 0 .88-.28 2.88 1.07a9.97 9.97 0 0 1 5.24 0c2-1.35 2.88-1.07 2.88-1.07.57 1.48.21 2.57.1 2.84.67.73 1.08 1.65 1.08 2.79 0 4.01-2.45 4.9-4.78 5.15.38.33.72.98.72 1.99v2.95c0 .28.19.61.72.5A10.5 10.5 0 0 0 22.5 12 10.5 10.5 0 0 0 12 1.5Z" />
-                </svg>
-            </a>
+    <article class="xp">
+      <header class="xp__head">
+        <div class="xp__title">
+          <h3>Tata Consultancy Services</h3>
+          <span class="role">Data Engineer</span>
         </div>
+        <div class="xp__meta"><span>May 2022 – May 2023</span><span>India</span></div>
+      </header>
+      <ul class="xp__bullets">
+        <li>Built distributed pipelines with PySpark + Kafka processing 500M+ transactions/day with near real-time availability, retries, and checkpointing for resilience.</li>
+        <li>Migrated workloads to Google Cloud with autoscaling and scheduling improvements, increasing reliability/uptime by ~35% while reducing compute cost.</li>
+        <li>Automated batch and streaming workflows in Airflow with SLA-driven alerting, reducing job failures by ~70% and improving predictability.</li>
+        <li>Improved BigQuery performance via partitioning and clustering, cutting query costs by ~40% and improving runtimes to sub‑5 seconds for key analytics.</li>
+        <li>Standardized CI/CD with Jenkins + Terraform + Git for versioned, repeatable deployments and safer releases.</li>
+      </ul>
+      <div class="tags" aria-label="Key technologies">
+        <span>PySpark</span><span>Kafka</span><span>Airflow</span><span>GCP</span><span>BigQuery</span><span>Jenkins</span><span>Terraform</span><span>Git</span>
+      </div>
+    </article>
 
-    </header>
-
-    <!-- ===== ABOUT ===== -->
-    <section class="section" id="about">
-        <h2 class="section__title">About</h2>
-        <p class="section__subtitle">A quick snapshot of who I am</p>
-        <div class="card">
-            <p>
-                    I’m a Data Engineer who loves designing clean, governed, and scalable data platforms that make analytics fast and trustworthy. 
-                    I enjoy simplifying complex pipelines, reducing costs, and obsessing over SLAs and data quality so teams can focus on insights.
-            
-                    My work sits at the intersection of data engineering, cloud infrastructure, and real-time analytics—helping organizations move from batch-heavy processes to modern, event-driven architectures.
-            </p>
+    <article class="xp">
+      <header class="xp__head">
+        <div class="xp__title">
+          <h3>Capgemini</h3>
+          <span class="role">Data Analyst</span>
         </div>
-    </section>
+        <div class="xp__meta"><span>Jun 2019 – May 2022</span><span>India</span></div>
+      </header>
+      <ul class="xp__bullets">
+        <li>Designed analytical models in SQL Server and Azure Synapse to consolidate data sources and improve executive visibility into financial KPIs.</li>
+        <li>Delivered Power BI dashboards used by 40+ leaders, translating complex data into actionable metrics and operational insights.</li>
+        <li>Automated refresh pipelines using Python + Airflow, reducing manual reporting effort by ~40% while improving data consistency and SLA adherence.</li>
+        <li>Performed validation and reconciliation across multi‑TB datasets, reducing discrepancies and reprocessing costs by ~35%.</li>
+        <li>Improved query performance through indexing, execution plan analysis, and optimized joins, boosting dashboard responsiveness.</li>
+      </ul>
+      <div class="tags" aria-label="Key technologies">
+        <span>SQL Server</span><span>Azure Synapse</span><span>Power BI</span><span>Python</span><span>Airflow</span>
+      </div>
+    </article>
 
-    <!-- ===== SKILLS ===== -->
-    <section class="section" id="skills">
-        <h2 class="section__title">Technical Expertise</h2>
-        <p class="section__subtitle">Comprehensive skill set spanning the data engineering ecosystem</p>
-
-        <div class="cards">
-            <article class="card">
-                <h3>Programming &amp; Scripting</h3>
-                <p>Python, SQL, Java, Scala, JavaScript, Bash/Shell</p>
-            </article>
-            <article class="card">
-                <h3>Big Data</h3>
-                <p>Apache Spark, Hive, Kafka, Hadoop, Flink</p>
-            </article>
-            <article class="card">
-                <h3>Cloud Platforms</h3>
-                <p>AWS (S3, Redshift, Glue, Lambda, Kinesis), GCP (BigQuery, Dataflow, Pub/Sub)</p>
-            </article>
-            <article class="card">
-                <h3>ETL &amp; Integration</h3>
-                <p>Airflow, dbt, Talend, Informatica</p>
-            </article>
-            <article class="card">
-                <h3>Data Visualization</h3>
-                <p>Power BI, Tableau, Excel</p>
-            </article>
-            <article class="card">
-                <h3>DevOps &amp; Version Control</h3>
-                <p>Git/GitHub, Docker, Kubernetes, Terraform, CI/CD</p>
-            </article>
+    <article class="xp">
+      <header class="xp__head">
+        <div class="xp__title">
+          <h3>Citius Tech</h3>
+          <span class="role">Data Analyst Associate</span>
         </div>
-    </section>
+        <div class="xp__meta"><span>Jan 2018 – Apr 2019</span><span>India</span></div>
+      </header>
+      <ul class="xp__bullets">
+        <li>Extracted and standardized healthcare data from SQL Server, Excel, and APIs with HIPAA awareness to support automated reporting across 15+ clinical metrics.</li>
+        <li>Maintained Python cleansing/validation scripts to enforce quality rules and reduce manual QA time by ~50%.</li>
+        <li>Built Tableau dashboards for outcomes and timelines, enabling faster operational decision-making.</li>
+        <li>Improved observability through documentation and monitoring, reducing daily load downtime by ~30%.</li>
+      </ul>
+      <div class="tags" aria-label="Key technologies">
+        <span>Python</span><span>SQL</span><span>Tableau</span><span>Data Quality</span><span>APIs</span>
+      </div>
+    </article>
+  </section>
 
-    <!-- ===== CERTIFICATIONS ===== -->
-    <section class="section">
-        <h2 class="section__title">Professional Certifications</h2>
-        <ul class="chips">
-            <li class="chip">AWS Cloud Practitioner</li>
-            <li class="chip">AWS AI Practitioner</li>
-            <li class="chip">Databricks Fundamentals</li>
-            <li class="chip">Generative AI Fundamentals (Databricks)</li>
-            <li class="chip">Fabric Data Engineer Associate (DP-700)</li>
-        </ul>
-    </section>
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <h2 class="section__title">Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Real-Time Fraud Detection Pipeline</h3>
+        <p>Built a scalable AWS pipeline (S3, Lambda, Glue, Redshift) orchestrated with Airflow to flag suspicious transactions with near real-time latency.</p>
+      </article>
+      <article class="card">
+        <h3>Supply Chain Optimization (Retail)</h3>
+        <p>Developed data pipelines for inventory and demand signals across 100+ stores and delivered executive dashboards in Power BI for faster decisions.</p>
+      </article>
+      <article class="card">
+        <h3>Financial Report Anomaly Detector</h3>
+        <p>Automated extraction and reconciliation workflows using OCR + ML tooling to detect anomalies at scale and reduce manual review effort.</p>
+      </article>
+    </div>
+  </section>
 
-    <!-- ===== EXPERIENCE ===== -->
-    <section class="section" id="experience">
-        <h2 class="section__title">Professional Experience</h2>
+  <!-- ===== EDUCATION ===== -->
+  <section class="section" id="education">
+    <h2 class="section__title">Education</h2>
+    <div class="card">
+      <p><strong>MS, Information Systems and Technologies</strong> — University of North Texas (Aug 2023 – May 2025)</p>
+    </div>
+  </section>
 
-        <article class="xp">
-            <header class="xp__head">
-                <div class="xp__title">
-                    <h3>Charles Schwab</h3>
-                    <span class="role">Data Engineer</span>
-                </div>
-                <div class="xp__meta"><span>Dec 2024 – Present</span><span>Texas, USA</span></div>
-            </header>
-            <ul class="xp__bullets">
-                <li>Built large-scale ETL with AWS Glue/Lambda/Spark to automate ingestion of transactional, portfolio & market data.</li>
-                <li>Modeled Snowflake star schemas → analytic queries ~45% faster with consistent governance.</li>
-                <li>Orchestrated with Airflow (parallelism, dependency mgmt) → end-to-end runtime −30%.</li>
-                <li>Added dbt + Great Expectations lineage/validation → traceability across 10M+ financial records.</li>
-                <li>Shipped AI-ready datasets for ML → risk/volatility models at ~92% accuracy.</li>
-                <li>Automated CI/CD with Jenkins + Terraform → deployment failures −60%.</li>
-            </ul>
-            <div class="tags">
-                <span>AWS</span><span>Glue</span><span>Lambda</span><span>Spark</span><span>Snowflake</span><span>Airflow</span><span>Kafka</span><span>Kinesis</span><span>Kinesis</span><span>Kinesis</span><span>dbt</span><span>Great Expectations</span><span>Terraform</span><span>Python</span><span>SQL</span>
-            </div>
-        </article>
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <h2 class="section__title">Contact</h2>
+    <div class="card contact-card">
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:sripriyaareddy20@gmail.com">sripriyaareddy20@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+19724138713">+1 (972) 413-8713</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sripriya-reddy20/" target="_blank" rel="noopener">linkedin.com/in/sripriya-reddy20</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/sripriyareddy20" target="_blank" rel="noopener">github.com/sripriyareddy20</a></li>
+      </ul>
+    </div>
+  </section>
 
-        <article class="xp">
-            <header class="xp__head">
-                <div class="xp__title">
-                    <h3>Tata Consultancy Services</h3>
-                    <span class="role">Data Engineer</span>
-                </div>
-                <div class="xp__meta"><span>May 2022 – May 2023</span><span>India</span></div>
-            </header>
-            <ul class="xp__bullets">
-                <li>PySpark + Kafka pipelines for 500M+ transactions/day with sub-second availability.</li>
-                <li>Led migration to GCP with autoscaling → reliability/uptime +35% and lower compute cost.</li>
-                <li>Standardized Python/SQL transforms → code reuse across 8 projects; onboarding +40% faster.</li>
-                <li>SLA-aware Airflow (batch + streaming) → job failures −70%, predictability up.</li>
-                <li>Built CI/CD (Jenkins/Terraform/Git) → zero-downtime releases.</li>
-                <li>Tuned BigQuery (partition/cluster/cost) → monthly cost −40%, avg runtime <5s.</li>
-            </ul>
-            <div class="tags"><span>GCP</span><span>BigQuery</span><span>PySpark</span><span>Kafka</span><span>Cloud Composer</span><span>Airflow</span><span>Terraform</span><span>Jenkins</span><span>Python</span><span>SQL</span><span>CI/CD</span></div>
-        </article>
+  <footer class="footer">
+    <p>© <span id="year"></span> Sripriya Reddy</p>
+  </footer>
 
-        <article class="xp">
-            <header class="xp__head">
-                <div class="xp__title">
-                    <h3>Capgemini</h3>
-                    <span class="role">Data Analyst</span>
-                </div>
-                <div class="xp__meta"><span>Jun 2019 – May 2022</span><span>India</span></div>
-            </header>
-            <ul class="xp__bullets">
-                <li>Modeled analytics with SQL Server/Azure Synapse → unified silos & near real-time KPI visibility.</li>
-                <li>Built Power BI dashboards used by 40+ executives for decisions.</li>
-                <li>Automated weekly refresh via Python + Airflow → manual reporting −40% and SLA adherence up.</li>
-                <li>Performed multi-TB validation & reconciliation → discrepancy incidents −35%.</li>
-                <li>Migrated datasets to Synapse → query performance +50% with cost-efficient storage.</li>
-                <li>EDA & predictive modeling (pandas/sklearn) → churn insights improved retention +12%.</li>
-            </ul>
-            <div class="tags"><span>Azure Synapse</span><span>SQL Server</span><span>Power BI</span><span>Python</span><span>Airflow</span><span>ETL</span><span>EDA</span><span>Machine Learning</span><span>CI/CD</span></div>
-        </article>
-
-        <article class="xp">
-            <header class="xp__head">
-                <div class="xp__title">
-                    <h3>Citius Tech</h3>
-                    <span class="role">Data Analyst Associate</span>
-                </div>
-                <div class="xp__meta"><span>Jan 2018 – April 2019</span><span>India</span></div>
-            </header>
-            <ul class="xp__bullets">
-                <li>Standardized healthcare ETL across SQL/Excel/APIs with HIPAA compliance for 15+ metrics.</li>
-                <li>Maintained Python cleansing scripts → manual QA hours −50%.</li>
-                <li>Launched Tableau outcomes/timeline dashboards to speed clinical decisions.</li>
-                <li>Authored ETL docs + monitoring → better observability; daily load downtime −30%.</li>
-                <li>Ran anomaly detection across multi-source datasets → reporting reliability +20%. </li>
-            </ul>
-            <div class="tags"><span>SQL</span><span>Python</span><span>Tableau</span><span>ETL</span><span>Excel</span><span>Data Quality</span><span>Healthcare Data</span><span>APIs</span></div>
-        </article>
-
-    </section>
-
-    <!-- ===== PROJECTS ===== -->
-    <section class="section" id="projects">
-        <h2 class="section__title">Projects</h2>
-        <div class="cards">
-            <article class="card">
-                <h3>Real-Time Fraud Detection</h3>
-                <p>AWS (S3, Lambda, Glue, Redshift) + Airflow; near real-time flags for suspicious transactions.</p>
-            </article>
-            <article class="card">
-                <h3>Financial Report Anomaly Detector</h3>
-                <p>Textract + TensorFlow + OpenCV; automated reconciliation for 20k+ daily records.</p>
-            </article>
-            <article class="card">
-                <h3>Supply Chain Optimization</h3>
-                <p>S3/Redshift cost-optimized storage + Power BI dashboards across 100+ stores.</p>
-            </article>
-        </div>
-    </section>
-
-    <!-- ===== EDUCATION ===== -->
-    <section class="section" id="education">
-        <h2 class="section__title">Education</h2>
-        <ul class="edu">
-            <li><strong>MS, Information Systems &amp; Technologies</strong> — University of North Texas</li>
-        </ul>
-    </section>
-
-    <!-- ===== CONTACT ===== -->
-    <section class="section" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <div class="card contact-card">
-            <ul class="contact-list">
-                <li><strong>Email:</strong> <a href="mailto:sripriyaareddy20@gmail.com">sripriyaareddy20@gmail.com</a>
-                </li>
-                <li><strong>Phone:</strong> <a href="tel:+19724138713">+1 (972) 413-8713</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sripriya-reddy20/" target="_blank"
-                        rel="noopener">linkedin.com/in/sripriya-reddy20</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/sripriyareddy20" target="_blank"
-                        rel="noopener">github.com/sripriyareddy20</a></li>
-            </ul>
-        </div>
-    </section>
-
-
-    <footer class="footer">
-        <p>© <span id="year"></span> Sripriya Reddy — Built for clarity, speed & accessibility.</p>
-    </footer>
-
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
